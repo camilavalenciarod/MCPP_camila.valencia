@@ -1,0 +1,9 @@
+[10 puntos] Escriba un programa para resolver el siguiente problema. 
+
+Usted tiene cuatro archivos de texto independientes, con la información de 63 estudiantes. En todos los archivos están los nombres y apellidos (en adelante, "nombres") de los 63 estudiantes y en todos los archivos la información se encuentra ordenada alfabéticamente por apellido o nombre (irrelevante), pero cada archivo tiene información diferente: el archivo 1 ("archivo1.txt") tiene nombres y cédula; el archivo 2 ("archivo2.txt") tiene nombres y e-mail; el archivo 3 ("archivo3.txt") tiene nombres y calificación de evaluación #1; y el archivo 4 ("archivo4.txt") tiene nombres y calificación de evaluación #2. 
+
+En todos los archivos los nombres están separados de la demás información por una coma. Su tarea consiste en crear, a partir de esos cuatro archivos, una variable llamada "estudiantes". Esta será asignada a un diccionario cuyas llaves sean las cédulas de los 63 estudiantes, y sus respectivos valores sean a su vez diccionarios. Cada cédula tendrá como valor un diccionario con cuatro llaves, de manera que al final la variable "estudiantes" tendrá la siguiente forma: 
+
+{<cédula1>: {"Nombres": <nombres>, "e-mail": <e-mail>, "evaluación #1": <evaluación #1>, "evaluación #2": <evaluación 2>}, <cédula2>: {"Nombres": <nombres>, "e-mail": <e-mail>, "evaluación #1": <evaluación #1>, "evaluación #2": <evaluación 2>}, ... , <cédula63>: {"Nombres": <nombres>, "e-mail": <e-mail>, "evaluación #1": <evaluación #1>, "evaluación #2": <evaluación 2>}}. 
+
+(Tenga en cuenta que los signos <> se utilizan para referirse a información que irá en ese lugar, pero no de manera literal. Las comillas, desde luego, sí hacen referencia a contenido literal.)
